@@ -1,0 +1,79 @@
+.HTML h3 {
+    color: orangered;
+}
+
+.HTML:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 3px 3px 8px orangered;
+}
+
+.CSS h3 {
+    color: blue;
+}
+
+.CSS:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 3px 3px 8px blue;
+}
+
+.JS h3 {
+    color: yellow;
+}
+
+.JS:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 3px 3px 8px yellow;
+}
+
+.REACT h3 {
+    color: #00bfff;
+}
+
+.REACT:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 3px 3px 8px #00bfff;
+}
+
+.BOOTSTRAP h3 {
+    color: #663399;
+}
+
+.BOOTSTRAP:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 3px 3px 8px #663399;
+}
+
+.TAILWIND h3 {
+    color: #00bfff;
+}
+
+.TAILWIND:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 3px 3px 8px #00bfff;
+}
+
+.NODE h3 {
+    color: #556b2f;
+}
+
+.NODE:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 3px 3px 8px #556b2f;
+}
+
+.MONGODB h3 {
+    color: #008000;
+}
+
+.MONGODB:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 3px 3px 8px #008000;
+}
