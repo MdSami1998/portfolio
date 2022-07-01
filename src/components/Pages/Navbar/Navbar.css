@@ -1,0 +1,8 @@
+/* .navHead {
+        text-shadow: 1px 1px 1px #bc804c;
+} */
+.navHead {
+    position: relative;
+    display: inline-block;
+    text-shadow: 1px 1px 0px #0f2e31, 2px 2px 0px #696969;
+}

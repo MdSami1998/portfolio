@@ -1,10 +1,15 @@
 import React from 'react';
+import { motion } from 'framer-motion'
 
 const Contacts = () => {
     return (
-        <div>
+        <motion.div
+            initial={{ width: 0 }}
+            animate={{ width: '100%' }}
+            exit={{ x: window.innerWidth , transition: {duration:0.4}}}
+        >
             <h1>this ic contact</h1>
-        </div>
+        </motion.div>
     );
 };
 

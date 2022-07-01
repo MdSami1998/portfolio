@@ -4,7 +4,6 @@ import { FaArrowCircleRight, FaEye,FaGithub } from 'react-icons/fa';
 
 const singleProject = ({ project }) => {
     const { name, image, liveLink, clientLink, serverLink } = project;
-    const newLocal = 'norefferer';
     return (
         <div>
             <div className='relative singleProjectImg w-full text-center text-white'>
@@ -26,7 +25,7 @@ const singleProject = ({ project }) => {
                     <button className='mx-auto flex justify-center items-center absolute bottom-0 pb-5 text-primary font-semibold'>Details <FaArrowCircleRight className='w-20 -m-6'></FaArrowCircleRight></button>
                 </div>
             </div>
-            <h1 className=' text-center text-xl font-semibold mt-2 tracking-widest'>{name}</h1>
+            <h1 className='text-white text-3xl font-semibold mt-2 tracking-widest'>{name}</h1>
         </div>
     );
 };
