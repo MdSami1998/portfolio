@@ -22,7 +22,7 @@ const singleProject = ({ project }) => {
                             <a href={serverLink} target="_blank" rel="noreferrer"><FaGithub className='hover:text-primary transition-all text-3xl'></FaGithub></a>
                         </p>
                     </div>
-                    <button className='mx-auto flex justify-center items-center absolute bottom-0 pb-5 text-primary font-semibold'>Details <FaArrowCircleRight className='w-20 -m-6'></FaArrowCircleRight></button>
+                    <button className='mx-auto flex justify-center items-center absolute bottom-0 pb-5 font-semibold hover:scale-110 transition-all'>Details <FaArrowCircleRight className='w-20 -m-6 hover:text-primary'></FaArrowCircleRight></button>
                 </div>
             </div>
             <h1 className='text-white text-3xl font-semibold mt-2 tracking-widest'>{name}</h1>

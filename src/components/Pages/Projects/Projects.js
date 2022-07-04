@@ -22,12 +22,12 @@ const Projects = () => {
         <motion.div className='mt-12'
             initial={{ width: 0 }}
             animate={{ width: '100%' }}
-            exit={{ x: window.innerWidth , transition: {duration:0.4}}}
+            exit={{ x: window.innerWidth , transition: {duration:0.5}}}
         >
             <h1 className='text-primary text-center text-2xl md:text-4xl font-black uppercase border-primary mx-auto tracking-widest my-5 relative'>Projects <span className='w-full bg_text'>My Works</span></h1>
 
             <div className='grid grid-cols-1 md:grid-cols-3 gap-10 px-3 md:px-20 mt-10 w-full'>
-                {projects.map(project => <SingleProject project={project}></SingleProject>)}
+                {projects.map(project => <SingleProject key={project._id} project={project}></SingleProject>)}
             </div>
 
             <div>
