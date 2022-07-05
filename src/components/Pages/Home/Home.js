@@ -23,7 +23,7 @@ const Home = () => {
                     <h2 className="text-3xl font-bold mt-5 text-primary">This is Md. Sami Al Zaber</h2>
                     <p className="py-6 text-base text-white leading-8">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
 
-                    <a href="https://drive.google.com/file/d/1syGektim5ydAwg4YBnMKw97qClUHPksB/view?usp=sharing" target="_blank" rel="noreferrer" ><button className="btn btn-primary btn-sm hover:bg-transparent hover:text-white transition-all  px-8 tracking-widest">Resume &nbsp; <FaDownload></FaDownload></button></a>
+                    <a href="https://drive.google.com/file/d/1syGektim5ydAwg4YBnMKw97qClUHPksB/view?usp=sharing" target="_blank" rel="noreferrer" ><button className="btn btn-primary btn-sm hover:bg-transparent hover:text-white hover:scale-110 transition-all  px-8 tracking-widest">Resume &nbsp; <FaDownload></FaDownload></button></a>
                 </div>
             </div>
         </motion.div>

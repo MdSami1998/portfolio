@@ -2,14 +2,14 @@ import React, { useEffect, useState } from 'react';
 import './Projects.css'
 import { motion } from 'framer-motion'
 import SingleProject from './SingleProject';
-import html from '../../../assest/html.png'
-import css from '../../../assest/css.png'
-import js from '../../../assest/js.png'
-import bootstrap from '../../../assest/bootstrap.png'
-import tailwind from '../../../assest/tailwind.png'
-import node from '../../../assest/node.png'
-import mongoDb from '../../../assest/mongodb.png'
-import react from '../../../assest/react.png'
+import html from '../../../assest/Icon/html.png'
+import css from '../../../assest/Icon/css.png'
+import js from '../../../assest/Icon/js.png'
+import bootstrap from '../../../assest/Icon/bootstrap.png'
+import tailwind from '../../../assest/Icon/tailwind.png'
+import node from '../../../assest/Icon/node.png'
+import mongoDb from '../../../assest/Icon/mongodb.png'
+import react from '../../../assest/Icon/react.png'
 
 const Projects = () => {
     const [projects, setProjects] = useState([]);

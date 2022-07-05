@@ -5,7 +5,7 @@ import proPic from '../../../assest/profile pic/IMG_8931.jpg'
 const About = () => {
     return (
         <div>
-            <h1 className='text-white text-center text-2xl md:text-4xl font-black uppercase border-primary mx-auto tracking-widest mt-10 mb-5 relative'>About <span className='text-primary'>me</span> <span className='w-full bg_text'>About Me</span></h1>
+            <h1 className='text-white text-center text-2xl md:text-4xl font-black uppercase border-primary mx-auto tracking-widest my-5 relative'>About <span className='text-primary'>me</span> <span className='w-full bg_text'>About Me</span></h1>
             <motion.div className="hero bg-base-200"
                 initial={{ width: 0 }}
                 animate={{ width: '100%' }}
