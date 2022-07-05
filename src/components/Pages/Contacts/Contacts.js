@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion'
 import concatcUs from '../../../assest/Icon/contactUs.png'
 import { FaPhone, FaFacebook, FaGithub, FaLinkedin } from 'react-icons/fa'
+import 'animate.css';
 
 const Contacts = () => {
     return (
@@ -15,13 +16,13 @@ const Contacts = () => {
 
             <div className='grid grid-cols-2 mt-12'>
                 <div className='flex'>
-                <div className='flex flex-col justify-between h-56 m-auto'>
+                    <div className='flex flex-col justify-between h-56 m-auto'>
                         <FaFacebook className='text-4xl text-white hover:text-primary transition-all'></FaFacebook>
                         <FaGithub className='text-4xl text-white hover:text-primary transition-all'></FaGithub>
                         <FaLinkedin className='text-4xl text-white hover:text-primary transition-all'></FaLinkedin>
                     </div>
 
-                    <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-accent mx-auto my-auto">
+                    <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-accent mx-auto my-auto animate__animated animate__zoomIn">
                         <div class="card-body">
                             <div class="form-control">
                                 <label class="label">
@@ -47,12 +48,12 @@ const Contacts = () => {
                         </div>
                     </div>
                     {/* <h2 className='mt-8 text-center text-xl tracking-widest text-white'>** Social Media **</h2> */}
-                    
+
                 </div>
 
                 <div>
-                    <img className='w-4/6 rounded' src={concatcUs} alt="" />
-                    <div className='border-2 border-secondary p-5 rounded-xl mt-5 text-white w-4/6 bg-accent'>
+                    <img className='w-4/6 rounded animate__animated animate__fadeInDown' src={concatcUs} alt="" />
+                    <div className='border-2 border-secondary p-5 rounded-xl mt-5 text-white w-4/6 bg-accent  animate__animated animate__fadeInUp'>
                         <h3 className='text-4xl lg:text-3xl font-bold leading-tight text-primary'>Contact Details :</h3>
                         <div className='text-left text-xl font-thin pt-5'>
                             <p className='font-bold'>Md. Sami Al Zaber</p>

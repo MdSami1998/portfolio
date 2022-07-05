@@ -4,6 +4,7 @@ import './Home.css'
 import proPic from '../../../assest/profile pic/IMG_20210321_160619.jpg'
 import { motion } from 'framer-motion'
 import { FaDownload } from 'react-icons/fa'
+import 'animate.css';
 
 const Home = () => {
     return (
@@ -17,8 +18,8 @@ const Home = () => {
         // exit={{opacity:0}}
         >
             <div className="hero-content flex-col lg:flex-row-reverse">
-                <img className='w-96 proPic' src={proPic} alt='' />
-                <div>
+                <img className='w-96 proPic animate__animated animate__fadeInRightBig' src={proPic} alt='' />
+                <div className='animate__animated animate__fadeInLeftBig'>
                     <h1 className="text-5xl font-bold text-white">Welcome!</h1>
                     <h2 className="text-3xl font-bold mt-5 text-primary">This is Md. Sami Al Zaber</h2>
                     <p className="py-6 text-base text-white leading-8">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>

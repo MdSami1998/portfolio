@@ -1,11 +1,12 @@
 import React from 'react';
 import './SingleProject.css'
 import { FaArrowCircleRight, FaEye,FaGithub } from 'react-icons/fa';
+import 'animate.css';
 
 const singleProject = ({ project }) => {
     const { name, image, liveLink, clientLink, serverLink } = project;
     return (
-        <div>
+        <div className='animate__animated animate__zoomIn'>
             <div className='relative singleProjectImg w-full text-center text-white'>
                 <div className='cursor-pointer'>
                     <img className=' rounded-xl' src={image} alt={name} />
