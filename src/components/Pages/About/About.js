@@ -1,7 +1,9 @@
 import React from 'react';
+import{Link} from 'react-router-dom'
 import { motion } from 'framer-motion'
 import proPic from '../../../assest/profile pic/IMG_8931.jpg'
 import 'animate.css';
+import { FaArrowRight } from 'react-icons/fa';
 
 const About = () => {
     return (
@@ -25,6 +27,8 @@ const About = () => {
                     </div>
                 </div>
             </motion.div>
+            
+            <Link to='/projects' className='md:hidden flex justify-end items-center m-4 border-t-2 pt-2 hover:text-primary'>My Works &nbsp; <FaArrowRight></FaArrowRight></Link>
         </div>
     );
 };
