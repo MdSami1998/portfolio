@@ -17,7 +17,7 @@ const About = () => {
             // exit={{opacity:0}}
             >
                 <div className="hero-content flex-col lg:flex-row-reverse">
-                    <img className='w-96 animate__animated animate__fadeInRightBig proPic' src={proPic} alt='' />
+                    <img className='w-60 md:w-96 animate__animated animate__fadeInRightBig proPic' src={proPic} alt='' />
                     <div className='animate__animated animate__fadeInLeftBig'>
                         {/* <h1 className="text-5xl font-bold text-white">Welcome!</h1> */}
                         <h2 className="text-3xl font-bold mt-5 text-primary">I am Md. Sami Al Zaber</h2>
