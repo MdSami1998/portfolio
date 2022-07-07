@@ -18,12 +18,11 @@ const About = () => {
             // animate={{opacity:1}}
             // exit={{opacity:0}}
             >
-                <div className="hero-content flex-col lg:flex-row-reverse">
+                <div className="hero-content md:gap-32 flex-col lg:flex-row-reverse">
                     <img className='w-60 md:w-96 animate__animated animate__fadeInRightBig proPic' src={proPic} alt='' />
                     <div className='animate__animated animate__fadeInLeftBig'>
-                        {/* <h1 className="text-5xl font-bold text-white">Welcome!</h1> */}
-                        <h2 className="text-3xl font-bold mt-5 text-primary">I am Md. Sami Al Zaber</h2>
-                        <p className="py-6 text-base text-white leading-8">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                        <h2 className="text-3xl md:text-4xl font-bold mt-5 text-primary">I am Md. Sami Al Zaber</h2>
+                        <p className="py-6 md:text-lg font-thin text-white leading-8 md:leading-9">I'm studying in the Department of Computer Science and Technology at Nanjing University of Information Science and Technology in Jiangsu Province, China.</p>
                     </div>
                 </div>
             </motion.div>

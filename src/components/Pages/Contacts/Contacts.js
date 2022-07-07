@@ -42,25 +42,24 @@ const Contacts = () => {
                                 <label className="label">
                                     <span className="label-text text-white">Your Message</span>
                                 </label>
-                                <textarea className='border border-gray-600 rounded-md p-2 bg-transparent text-white' name='textarea' rows="3" placeholder='message' required></textarea>
+                                <textarea className='border border-gray-600 rounded-lg p-2 bg-transparent text-white' name='textarea' rows="3" placeholder='message' required></textarea>
                             </div>
                             <div className="form-control mt-6">
                                 <button className="btn btn-primary hover:bg-transparent hover:text-white hover:scale-110 transition-all tracking-widest">Send Message</button>
                             </div>
                         </div>
                     </div>
-                    {/* <h2 className='mt-8 text-center text-xl tracking-widest text-white'>** Social Media **</h2> */}
 
                 </div>
 
-                <div>
+                <div className='mb-5 md:mb-0'>
                     <img className='w-full md:w-4/6 mt-5 md:mt-0 rounded animate__animated animate__fadeInDown' src={concatcUs} alt="" />
                     <div className='border-2 border-secondary p-5 rounded-xl mt-5 text-white bg-accent w-full md:w-4/6 animate__animated animate__fadeInUp'>
-                        <h3 className='text-4xl lg:text-3xl font-bold leading-tight text-primary'>Contact Details :</h3>
-                        <div className='text-left text-xl font-thin pt-5'>
+                        <h3 className='text-2xl lg:text-3xl font-bold leading-tight text-primary'>Contact Details :</h3>
+                        <div className='text-left text-lg md:text-xl font-thin pt-5'>
                             <p className='font-bold'>Md. Sami Al Zaber</p>
-                            <p className='my-2 text-lg'><span className='underline'>Address</span> : Tomsom Bridge, Laksham Road, Cumilla, Bangladesh</p>
-                            <p className='my-2 text-lg'>Email : <span className='text-blue-500'>samizaber822@gmail.com</span></p>
+                            <p className='my-2 text-base md:text-lg'><span className='underline'>Address</span> : Tomsom Bridge, Laksham Road, Cumilla, Bangladesh</p>
+                            <p className='my-2 text-base md:text-lg'>Email : <span className='text-blue-500'>samizaber822@gmail.com</span></p>
                             <a href="tel:+8801775968038" rel='noreferrer' className='btn btn-primary btn-sm w-40 text-black tracking-widest flex items-center gap-2 border border-secondary  hover:bg-transparent hover:text-white transition-all hover:scale-110'> Call Now <FaPhone></FaPhone></a>
                         </div>
                     </div>
