@@ -4,13 +4,13 @@ import './Navbar.css'
 
 const Navbar = () => {
     const menuItem = <>
-        <li><Link to="/" className='text-white font-semibold hover:border-b-2 border-primary text-lg'>Home</Link></li>
+        <li><Link to="/" className='text-white font-semibold text-lg'>Home</Link></li>
 
-        <li><Link to="/about" className='text-white font-semibold hover:border-b-2 border-primary text-lg'>About</Link></li>
+        <li><Link to="/about" className='text-white font-semibold text-lg'>About</Link></li>
 
-        <li><Link to="/projects" className='text-white font-semibold hover:border-b-2 border-primary text-lg'>Project</Link></li>
+        <li><Link to="/projects" className='text-white font-semibold text-lg'>Project</Link></li>
 
-        <li><Link to="/contact" className='text-white font-semibold hover:border-b-2 border-primary text-lg'>Contact</Link></li>
+        <li><Link to="/contact" className='text-white font-semibold text-lg'>Contact</Link></li>
     </>
     return (
         <div className="navbar  px-0 md:px-20  w-full sticky top-0 z-10 bg-base-100">
