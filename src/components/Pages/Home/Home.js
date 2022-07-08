@@ -20,12 +20,12 @@ const Home = () => {
             >
                 <div className="hero-content lg:gap-60 flex-col lg:flex-row-reverse">
                     <img className='w-72 md:w-96 proPic animate__animated animate__fadeInRightBig' src={proPic} alt='' />
-                    <div className='animate__animated animate__fadeInLeftBig'>
+                    <div className='animate__animated animate__fadeInLeftBig pt-8 md:pt-0'>
                         <h1 className="text-3xl md:text-6xl font-bold text-white">Welcome!</h1>
                         <h2 className="text-2xl mt-5 text-primary">This is <span className='tracking-wider font-black text-2xl md:text-4xl'>Md. Sami Al Zaber</span></h2>
-                        <p className="py-6 md:text-xl font-thin text-white leading-8 tracking-wider">I'm a front-end developer. I love to build interactive and user-friendly websites that run across platforms & devices.</p>
+                        <p className="py-6 text-xl md:text-2xl font-thin text-white leading-8 tracking-wider">I'm a front-end developer. I love to build interactive and user-friendly websites that run across platforms & devices.</p>
 
-                        <a href="https://drive.google.com/file/d/1w6nlK6Do3DBOINaYQ5uA3JOmqTzPyr9R/view?usp=sharing" target="_blank" rel="noreferrer" ><button className="btn btn-primary btn-sm hover:bg-transparent hover:text-white hover:scale-110 transition-all  px-8 tracking-widest">Resume &nbsp; <FaDownload></FaDownload></button></a>
+                        <a href="https://drive.google.com/file/d/1VxlyLBCAsNkyfP_ymrdUejsvmaIglXqK/view?usp=sharing" target="_blank" rel="noreferrer" ><button className="btn btn-primary btn-sm hover:bg-transparent hover:text-white hover:scale-110 transition-all  px-8 tracking-widest">Resume &nbsp; <FaDownload></FaDownload></button></a>
                     </div>
                 </div>
             </motion.div>

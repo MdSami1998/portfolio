@@ -22,7 +22,7 @@ const About = () => {
                     <img className='w-60 md:w-96 animate__animated animate__fadeInRightBig proPic' src={proPic} alt='' />
                     <div className='animate__animated animate__fadeInLeftBig'>
                         <h2 className="text-3xl md:text-4xl font-bold mt-5 text-primary">I am Md. Sami Al Zaber</h2>
-                        <p className="py-6 md:text-lg font-thin text-white leading-8 md:leading-9 tracking-wider">I am 23 years old. I live in Cumilla, Bangladesh. I'm currently studying in the Computer Science and Technology Department at Nanjing University of Information Science and Technology in Jiangsu Province, China. I am a junior web developer. I love to make interactive websites. Besides Web Development, I am a sportsman at heart. I love sports like football, cricket, etc.</p>
+                        <p className="py-6 text-xl md:text-2xl font-thin text-white leading-8 md:leading-9 tracking-wider">I am 23 years old. I live in Cumilla, Bangladesh. I'm currently studying in the Computer Science and Technology Department at Nanjing University of Information Science and Technology in Jiangsu Province, China. I am a junior web developer. I love to make interactive websites. Besides Web Development, I am a sportsman at heart. I love sports like football, cricket, etc.</p>
                     </div>
                 </div>
             </motion.div>

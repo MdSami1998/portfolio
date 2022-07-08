@@ -19,9 +19,9 @@ const Contacts = () => {
                     <div className='flex md:flex-col justify-center gap-20 md:gap-0 md:justify-between md:h-56 m-auto pb-5'>
                         <a href="https://www.facebook.com/samial.zaber.7/" target='_blank' rel="noreferrer" ><FaFacebook className='text-4xl text-white hover:text-primary transition-all'></FaFacebook></a>
 
-                        <a href="https://www.linkedin.com/in/sami-al-zaber-62625b241/" target='_blank' rel="noreferrer"><FaGithub className='text-4xl text-white hover:text-primary transition-all'></FaGithub></a>
+                        <a href="https://github.com/MdSami1998" target='_blank' rel="noreferrer"><FaGithub className='text-4xl text-white hover:text-primary transition-all'></FaGithub></a>
 
-                        <a href="https://github.com/MdSami1998" target='_blank' rel="noreferrer"><FaLinkedin className='text-4xl text-white hover:text-primary transition-all'></FaLinkedin></a>
+                        <a href="https://www.linkedin.com/in/sami-al-zaber/" target='_blank' rel="noreferrer"><FaLinkedin className='text-4xl text-white hover:text-primary transition-all'></FaLinkedin></a>
                     </div>
 
                     <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-accent mx-auto my-auto animate__animated animate__zoomIn">
